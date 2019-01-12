@@ -113,9 +113,9 @@ public class Question04Activity extends BaseActivity {
         };
 
         plusBtn.setOnClickListener(operatorClickListner);
-        minusBtn.setOnClickListener();
-        multiplyBtn.setOnClickListener();
-        divideBtn.setOnClickListener();
+        minusBtn.setOnClickListener(operatorClickListner);
+        multiplyBtn.setOnClickListener(operatorClickListner);
+        divideBtn.setOnClickListener(operatorClickListner);
 
         calculateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
